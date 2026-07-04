@@ -1,0 +1,13 @@
+{"v":1,"type":"hello","t":0,"seq":1,"device":"iPad Pro 12.9 (5th gen)","os":"iPadOS 17.4","capabilities":["barrel","doubleTap","eraser","hover","pressure","squeeze","tilt"]}
+{"v":1,"type":"hover","t":1234,"seq":50,"x":0.42,"y":0.31,"alt":32.5,"azi":145.0}
+{"v":1,"type":"down","t":1235,"seq":51,"x":0.42,"y":0.31,"p":0.87,"alt":32.5,"azi":145.0}
+{"v":1,"type":"move","t":1240,"seq":52,"x":0.43,"y":0.32,"p":0.75,"alt":35.0,"azi":148.0}
+{"v":1,"type":"move","t":1245,"seq":53,"x":0.45,"y":0.35,"p":0.6,"alt":40.0,"azi":150.0}
+{"v":1,"type":"up","t":1250,"seq":54,"x":0.46,"y":0.36}
+{"v":1,"type":"button","t":1260,"seq":55,"kind":"barrel","state":"down"}
+{"v":1,"type":"button","t":1265,"seq":56,"kind":"barrel","state":"up"}
+{"v":1,"type":"ping","t":5000,"seq":60,"nonce":"n42"}
+{"v":1,"type":"pong","t":5002,"seq":61,"nonce":"n42"}
+{"v":1,"type":"modifiers","t":6000,"seq":70,"mask":3}
+{"v":1,"type":"modifiers","t":6001,"seq":71,"mask":0}
+{"v":1,"type":"bye","t":99999,"seq":1000}

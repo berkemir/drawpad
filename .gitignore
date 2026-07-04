@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Xcode
+DerivedData/
+build/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Obsidian (local vault UI state — not project source)
+.obsidian/
+
+# Wiki tooling's machine-local, auto-regenerated state (hostname, absolute
+# paths, timestamps — see scripts/detect-transport.sh)
+.vault-meta/
+
+# Private working notes / internal architecture wiki — not for the public repo.
+wiki/
+
+# Local Claude Code project settings.
+.claude/
+
+# Contains a live-looking API key (see start.sh) — never commit secrets.
+# Rotate/revoke the key before or instead of relying solely on this entry.
+start.sh
